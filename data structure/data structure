@@ -1,0 +1,24 @@
+DiabetesPredictionApp/
+├── dataset/
+│   ├── raw/
+│   │   └── diabetes_dataset.csv
+│   ├── processed/
+│   │   ├── train.csv
+│   │   └── test.csv
+│
+├── notebooks/
+│   └── eda.ipynb
+│
+├── src/
+│   ├── __init__.py
+│   ├── data_preprocessing.py
+│   ├── model_training.py
+│   ├── evaluation.py
+│   └── predictor.py
+│
+├── app/
+│   └── diabetes.py
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
